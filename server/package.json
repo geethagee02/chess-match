@@ -1,0 +1,13 @@
+{
+  "name": "chess-match-server",
+  "private": true,
+  "type": "module",
+  "description": "SQLite API that records Chess Match games and rejects illegal moves.",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning index.js",
+    "test": "node --disable-warning=ExperimentalWarning --test test.js"
+  }
+}
